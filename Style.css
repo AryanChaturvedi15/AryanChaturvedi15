@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Body and container styling */
+body {
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header styling */
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #77aaff 3px solid;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  padding: 0;
+  list-style: none;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header h1 {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+/* Section styling */
+section {
+  padding: 20px 0 20px 0;
+}
+
+#about, #projects, #contact {
+  background: #f4f4f4;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+#about h2, #projects h2, #contact h2 {
+  color: #333;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: #77aaff 2px solid;
+}
+
+/* Project styling */
+.project {
+  margin: 15px 0;
+}
+
+.project h3 {
+  color: #333;
+  padding-bottom: 5px;
+  border-bottom: #77aaff 1px solid;
+}
+
+/* Footer styling */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
